@@ -1,0 +1,54 @@
+/* p, li, h1 {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+*/
+
+/*https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors*/
+
+body {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #F6E1D3;
+    text-shadow: 6px 6px 15px black;
+    /*first value sets the horizontal offset of the shadow from the text(how far it moves across),
+    second value sets the vertical offset of the shadow from the text(how far it moves down)
+    third pixel value sets the blur radius of the shadow (larger value produces fuzzy looking shadow
+    fourth value sets the base color of the shadow*/
+    font-size: 60px;
+    text-align: center;
+  }
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+/* html {
+  background-color: #9ED2C7;
+}
+*/
+body {
+  width: 531px;
+  margin: 0 auto;
+  /*the first value affects the elements top and bottom side,
+  the second value affects the left and right side. for margins check here
+  https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax*/
+  background-color: #F6E1D3;
+  padding: 0 20px 20px 20px;
+  /* the order is top right bottom left, check here 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/padding#syntax */
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
